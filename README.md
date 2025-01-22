@@ -72,7 +72,7 @@
   <p>+Step1: Install virtual environment, package</p>
   <pre>
   conda create --name image_caption python=3.10.12
-  git clone https://github.com/LuongTuanAnh163002/Image_captioning.git
+  git clone https://github.com/bachnguyen0175/Image_captioning.git
   cd Image_captioning
   conda activate image_caption
   pip install -r requirements.txt
@@ -106,7 +106,7 @@
   <a href="https://drive.google.com/file/d/15awWEiar47LKqHn9D4A5B_keWuxZlGTM/view?usp=sharing"><code>weight.zip</code></a>
   <pre>
   #for ubuntu/linux
-  curl -L -o weight_image_captioning.zip https://github.com/LuongTuanAnh163002/Image_captioning/releases/download/v1.0.0/weight_image_captioning.zip
+  curl -L -o weight_image_captioning.zip https://github.com/bachnguyen0175/Image_captioning/releases/download/v1.0.0/weight_image_captioning.zip
   d="./weight_img_caption/"
   mkdir -p $d
   unzip -q weight_image_captioning.zip -d $d
